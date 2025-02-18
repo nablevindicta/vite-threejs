@@ -35,7 +35,7 @@ scene.add(spotLight.target);
 let model;
 const loader = new GLTFLoader();
 loader.load(
-  'public/models/chara.glb', // Path ke file GLB
+  '/models/chara.glb', // Path ke file GLB
   (gltf) => {
     model = gltf.scene;
     scene.add(model);
